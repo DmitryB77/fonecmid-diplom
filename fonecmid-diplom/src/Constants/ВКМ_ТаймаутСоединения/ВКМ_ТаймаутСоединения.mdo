@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59b58cb6-b0d5-43a6-9418-7c838a4bb4e4">
+  <producedTypes>
+    <managerType typeId="658d8313-b72d-452d-85b4-b649d83946b7" valueTypeId="48f07864-62b8-435e-b0c7-c70d1565f9a2"/>
+    <valueManagerType typeId="eecf73b4-db9a-4595-921f-575fcd62d1ec" valueTypeId="7c6bfc1a-5e2e-4022-ae89-39f17044ad0b"/>
+    <valueKeyType typeId="fb70cb68-4e1a-4913-ab13-645d551fc524" valueTypeId="6866c4f3-7441-4cd9-87f4-faaf033e5ceb"/>
+  </producedTypes>
+  <name>ВКМ_ТаймаутСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут соединения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
