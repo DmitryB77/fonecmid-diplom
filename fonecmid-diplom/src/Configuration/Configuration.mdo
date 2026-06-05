@@ -18,7 +18,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <vendor>ООО Нетология</vendor>
+  <vendor>Блохин Д.В.</vendor>
   <version>1.0.1.2</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
@@ -1126,6 +1126,7 @@
   <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
   <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <constants>Constant.ВКМ_НДФЛ</constants>
+  <constants>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1231,12 +1232,17 @@
   <catalogs>Catalog.ВКМ_ФизическиеЛица</catalogs>
   <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВКМ_УведомленияТелеграмБоту</catalogs>
+  <catalogs>Catalog.ВКМ_ГрафикиРаботы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.ВКМ_ОбслуживаниеКлиента</documents>
+  <documents>Document.ВКМ_НачислениеЗаработнойПлаты</documents>
+  <documents>Document.ВКМ_НачислениеФиксированныхПремий</documents>
+  <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1394,6 +1400,7 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
@@ -1403,5 +1410,13 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ГрафикОтпусков</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ВКМ_ОсновныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ВКМ_ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ВКМ_Удержания</calculationRegisters>
 </mdclass:Configuration>

@@ -22,4 +22,19 @@
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
+  <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
 </mdclass:Subsystem>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6248e97-c5ee-4b9c-af15-12ac1af9b216">
+  <producedTypes>
+    <objectType typeId="a1d822d0-3f6e-4043-b5e2-28f252c3951a" valueTypeId="9eddb7f1-ee4a-400b-97d9-02e1f81b68aa"/>
+    <refType typeId="ec6f9414-961a-401d-8280-7ca5ddf2d177" valueTypeId="0e946430-bf3b-43cd-9feb-6a138df4e92c"/>
+    <selectionType typeId="1fd593e6-03c0-4ae1-876b-957d44436228" valueTypeId="48bf344b-03c4-4c65-bfa1-7403b01a3c00"/>
+    <listType typeId="08a218f4-6825-418d-a684-900bedab6576" valueTypeId="1f9310c5-25f7-4764-ae63-e3c6675c8912"/>
+    <managerType typeId="e8408d91-f78f-468b-b20c-d556006e9a4d" valueTypeId="c566cf3e-045a-4bd5-9104-b473c04c13ae"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b2e05cc5-a1e4-49f4-b6bd-55f446bf35ed">
+      <name>Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a9493223-c781-4f33-9108-1841b0d5796a">
+      <name>Шестидневка</name>
+      <description>Шестидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -14,6 +14,7 @@
     <value>Выполненные сотрудником работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="6e59dc18-a6f9-4cc2-8cd7-24b9fe9208ac">
