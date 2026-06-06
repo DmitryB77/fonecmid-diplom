@@ -37,4 +37,9 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
   <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
 </mdclass:Subsystem>
