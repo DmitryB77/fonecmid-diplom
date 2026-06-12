@@ -42,4 +42,5 @@
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
+  <content>DataProcessor.ВКМ_ОтправкаСообщенийВТелеграм</content>
 </mdclass:Subsystem>

@@ -14,4 +14,5 @@
   <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.ВКМ_ОтправкаСообщенийВТелеграм</content>
 </mdclass:Subsystem>
